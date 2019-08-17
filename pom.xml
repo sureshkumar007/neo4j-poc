@@ -50,41 +50,95 @@
 <!--			<artifactId>lombok</artifactId>-->
 <!--			<scope>provided</scope>-->
 <!--		</dependency>-->
-		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-neo4j</artifactId>
-		</dependency>
+
+
+
+
 <!--		<dependency>-->
 <!--			<groupId>org.neo4j</groupId>-->
-<!--			<artifactId>neo4j-ogm-test</artifactId>-->
+<!--			<artifactId>neo4j</artifactId>-->
+<!--			<version>3.2.9</version>-->
+<!--			<scope>runtime</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.neo4j</groupId>-->
+<!--			<artifactId>neo4j-ogm-embedded-driver</artifactId>-->
+<!--			<version>${neo4j-ogm.version}</version>-->
+<!--			<scope>test</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.neo4j</groupId>-->
+<!--			<artifactId>neo4j-ogm-bolt-driver</artifactId>-->
+<!--			<version>${neo4j-ogm.version}</version>-->
+<!--		</dependency>-->
+
+
+
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.data</groupId>-->
+<!--			<artifactId>spring-data-neo4j</artifactId>-->
+<!--		</dependency>-->
+<!--&lt;!&ndash;		<dependency>&ndash;&gt;-->
+<!--&lt;!&ndash;			<groupId>org.neo4j</groupId>&ndash;&gt;-->
+<!--&lt;!&ndash;			<artifactId>neo4j-ogm-test</artifactId>&ndash;&gt;-->
+<!--&lt;!&ndash;			<scope>test</scope>&ndash;&gt;-->
+<!--&lt;!&ndash;		</dependency>&ndash;&gt;-->
+
+<!--		<dependency>-->
+<!--					<groupId>org.springframework.boot</groupId>-->
+<!--					<artifactId>spring-boot-starter-data-neo4j</artifactId>-->
+<!--				</dependency>-->
+
+<!--		<dependency>-->
+<!--			<groupId>org.neo4j</groupId>-->
+<!--			<artifactId>neo4j-ogm-embedded-driver</artifactId>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-web</artifactId>-->
+<!--		</dependency>-->
+
+<!--		&lt;!&ndash; https://mvnrepository.com/artifact/org.projectlombok/lombok &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.projectlombok</groupId>-->
+<!--			<artifactId>lombok</artifactId>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+
+<!--		<dependency>-->
+<!--			<groupId>com.voodoodyne.jackson.jsog</groupId>-->
+<!--			<artifactId>jackson-jsog</artifactId>-->
+<!--			<version>1.0</version>-->
+<!--		</dependency>-->
+
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-test</artifactId>-->
 <!--			<scope>test</scope>-->
 <!--		</dependency>-->
 
-		<dependency>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-data-neo4j</artifactId>
-				</dependency>
+
 
 		<dependency>
-			<groupId>org.neo4j</groupId>
-			<artifactId>neo4j-ogm-embedded-driver</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-neo4j</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.8</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>com.voodoodyne.jackson.jsog</groupId>
-			<artifactId>jackson-jsog</artifactId>
-			<version>1.0</version>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j-ogm-embedded-driver</artifactId>
+			<scope>test</scope>
 		</dependency>
 
 		<dependency>
@@ -92,6 +146,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 
 	</dependencies>
 
