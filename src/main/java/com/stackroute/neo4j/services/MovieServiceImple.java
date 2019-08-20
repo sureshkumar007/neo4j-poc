@@ -66,7 +66,7 @@ public class MovieServiceImple implements MovieService
         {
             Movie movie1=movieRepository.findById(id).get();
             movie.setDirector(movie.getDirector());
-            movie.setRoles(movie.getRoles());
+//            movie.setRoles(movie.getRoles());
             movie.setTitle(movie.getTitle());
             movieRepository.save(movie);
             return movie1;
